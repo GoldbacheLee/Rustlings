@@ -9,9 +9,9 @@
 pub fn foo_if_fizz(fizzish: &str) -> &str {
     if fizzish == "fizz" {
         "foo"
-    } else if fizzish == "bar"{
+    } else if fizzish == "fuzz"{
         "bar"
-    } else  { "baz"  }
+    } else   { "baz"  }
 }
 
 // No test changes needed!

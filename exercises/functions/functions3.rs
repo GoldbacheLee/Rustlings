@@ -5,6 +5,7 @@
 
 
 fn main() {
+    let num = 5;
     call_me();
 }
 
